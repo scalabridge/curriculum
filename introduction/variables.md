@@ -1,7 +1,7 @@
 ## Variables
 
 
-We are humans and we love to give names to things - we name our pets, the planets and stars, the give names like "walk", "see", and "talk" to the complex mechanical and chemical processes our bodies and minds perform. We give these names because it's a lot easier to say "fluffy sleeps on my bed" than "the quadrapedal organism that goes through rapid eye movement whilst relaxing its musculatory system atop a rectangular object."
+We are humans and we love to give names to things - we name our pets, the planets and stars, give names like "walk", "see", and "talk" to the complex mechanical and chemical processes our bodies and minds perform. We give these names because it's a lot easier to say "fluffy sleeps on my bed" than "the quadrapedal organism that goes through rapid eye movement whilst relaxing its musculatory system atop a rectangular object."
 
 In programming, we have the ability to name things and processes. We call it a "variable".
 
@@ -12,7 +12,7 @@ scala> 2 + 3
 res3: Int = 5
 ```
 
-What does `2 + 3` refer to? It could mean anything! The number `2` is useful for so many things: the number of eyes your have, the loneliest number since the number `3`.
+What does `2 + 3` refer to? It could mean anything! The number `2` is useful for so many things: it might be the number of eyes you have, or the loneliest number since the number `3`.
 
 In the same way that you would write a grocery list of a dozen apples and half-dozen oranges, we want to do the same thing in programming, and here is how we do it:
 
@@ -30,7 +30,7 @@ Now the numbers `2` and `3` are named, it's easier to understand - as a human - 
 
 Further, we can refer to these named things now and when we use the names we can better understand the intention of what we are doing.
 
-We can also name more complex than a value, we can also name processes.
+We can also name more complex things than a value, we can also name processes.
 
 What do you think the following processes are doing and what would you name them?
 
@@ -62,3 +62,12 @@ scala> val numberOfMoreOrangesThanApples = oranges - apples
 numberOfMoreOrangesThanApples: Int = 1
 
 ```
+
+Follow ups:
+
+Did you notice this line?
+
+```
+thereAreMoreApplesThanOranges: Boolean = false
+```
+Want to know what `Boolean` means? Go straight to our [Boolean](boolean.md) section.
