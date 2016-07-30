@@ -2,6 +2,8 @@
 
 Boolean means True or False. Would it surprise you to find out that the fundamentals of computation are built entirely out of True and False? We often call this concept "binary" -- meaning two choices. You'll often hear these two names, "binary" and "boolean" used to describe the same concept.
 
+This is only the beginning of the rabbit hole of what is called "Boolean Logic". One of the most exciting parts of programming is that the things you use and learn have deep roots in rich concepts that apply to so much more than you might imagine. The fun part is that we have this REPL that we get to play with and explore these things. So let's play!
+
 In Scala, the `Boolean` type has two concrete values: `true` and `false`.
 
 ```
@@ -17,9 +19,11 @@ There are several operations that can be run with Booleans, but let's focus on t
 - `&&` pronounced: "and"
 - `||` pronounced: "or"
 
-Try typing a series of `true` and `false` values separated by those operations, e.g. `true && true || false`.
+Try typing a series of `true` and `false` values separated by those operations, e.g. `true && true || false`. What do you think these operations are doing?
 
-What do you expect the following values to be for the following operations:
+One of the fun things about your REPL is you can play around with things that you may not already understand!
+
+Given what you think those operations do, what do you expect the values to be for the following:
 
 ```
 scala> false || false || false || true
@@ -27,6 +31,9 @@ res0: Boolean = ???
 
 scala> true && true && false
 res1: Boolean = ???
+
+scala> true || false
+res2: Boolean = ???
 ```
 
 Anything that eventually becomes a Boolean can use these `&&` and `or` operations.
