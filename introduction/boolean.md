@@ -1,6 +1,6 @@
 ## Boolean
 
-Boolean means True or False. Would it surprise you to find out that the fundamentals of computation are built entirely out of True and False? We often call this concept "binary" -- meaning two choices. You'll often here these two names, "binary" and "boolean" used to describe the same concept.
+Boolean means True or False. Would it surprise you to find out that the fundamentals of computation are built entirely out of True and False? We often call this concept "binary" -- meaning two choices. You'll often hear these two names, "binary" and "boolean" used to describe the same concept.
 
 In Scala, the `Boolean` type has two concrete values: `true` and `false`.
 
