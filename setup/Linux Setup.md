@@ -1,6 +1,6 @@
 # Linux Setup
 ## Java JDK Installation
-1. If you don't have the JDK installed on your system, use your package manager to install it. 
+1. If you don't have the JDK installed on your system, use your package manager to install it or follow the directions at the [OpenJDK install page](http://openjdk.java.net/install/). 
 2. To verify the JDK installation, open the Command Prompt and type `java -version`:
 ```
 [tim@rajas ~]$ java -version
