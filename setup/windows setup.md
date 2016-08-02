@@ -33,4 +33,25 @@ riculum/)
 [info] Available Plugins: sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins
 .CorePlugin, sbt.plugins.JUnitXmlReportPlugin, org.ensime.EnsimePlugin
 [info] sbt, sbt plugins, and build definitions are using Scala 2.10.4
+>
 ```
+Type `exit` at the prompt to exit `sbt`.
+## Install Scala
+1. Go to the [Scala Download page](http://www.scala-lang.org/download/) and choose the first option to download the Scala binaries installation package to your computer. The `download` button will automatically download the Windows installer for  Scala version 2.11.8.
+2. Use Windows Explorer to locate and run the installer. The Scala Programming Language Distribution Setup Wizard will appear.
+3. Repeatedly use the `Next` button to choose all the installation defaults. Check the box on the license page to accept the license.
+
+The installer will install the core Scala language, update the System path for the Scala executables, and privide a start menu link to Scala documentation.
+
+Verify installation by opening a command prompt window and entering `scala` at the prompt:
+```
+C:\Users\Tim>scala                                                         
+Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_74).
+Type in expressions for evaluation. Or try :help.                          
+                                                                           
+scala>        
+```
+The `scala>` prompt indicates you are in the Scala interpreter **R**ead-**E**valuate-**P**rint **L**oop or REPL. For now, just type `:quit` at the prompt to exit the REPL.
+## Next Steps
+This completes the installation required for the Scalabridge workshop. You should now read and follow the *Using sbt and Scala Tutorial*.
+                                                             
