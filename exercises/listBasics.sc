@@ -41,8 +41,9 @@ http://www.tutorialspoint.com/scala/scala_tuples.htm
     or SEQUENTIAL ACCESS
   - the cars don't necessarily have to be any order
     or UNORDERED
-  - you can create a new list; but adding  Cars to the END of the list
-    or APPEND
+  - you can create a new list; but adding Cars to the END of the list
+    or APPEND is EXPENSIVE because of the SEQUENTIAL access issue; 
+    so only a PREPEND method is automatically supported!
 
 2) Each data structure has a certain set of characteristics in terms of:
    TIME to access the data stored in it via OPERATIONS (methods) permitted on it
