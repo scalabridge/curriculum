@@ -1,7 +1,9 @@
 # Cheat Sheet
 ___
 
-This cheat sheet has been adapted from the awesome [cheatsheet from the Coursera Scala Course](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md). Thank you to @mbren for the suggestion.
+This cheat sheet has been adapted from the awesome [cheatsheet from the Coursera Scala Course](https://github.com/lampepfl/progfun-wiki/blob/gh-pages/CheatSheet.md). Thank you to @mbren for the suggestion. 
+
+The scope is intentionally small, but if there are other core library methods we are missing examples / explanations of, please contribute!
 
 **TODO:**
 
@@ -10,6 +12,7 @@ This cheat sheet has been adapted from the awesome [cheatsheet from the Coursera
 * pattern matching
 * more examples!
 * audit list examples
+* what else? 
 
 ## Evaluation Rules
 
