@@ -47,7 +47,7 @@ Thoughts on these bullet points:
 - ScalaBridge is:
   - safe space to learn
 
-  Trying to get into the workd of tech can be intimidating. We want ScalaBridge to be a safe space
+  Trying to get into the world of tech can be intimidating. We want ScalaBridge to be a safe space
    in which newcomers can explore and learn.
 
 
