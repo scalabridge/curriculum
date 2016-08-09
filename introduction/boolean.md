@@ -44,7 +44,7 @@ Let's take our example from the [Variables](variables.md) section and play aroun
 scala> val apples = 2
 apples: Int = 2
 
-scala> val oranges = 2
+scala> val oranges = 3
 oranges: Int = 3
 
 scala> val thereAreMoreApplesThanOranges = apples > oranges
