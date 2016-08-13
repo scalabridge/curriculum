@@ -1,11 +1,6 @@
 # Linux Setup
-The workshop requires the following:
-1. Use of a `shell`, `bash` is shown in this document,
-2. Java JDK (Java Development Kit),
-3. Scala,
-4. A text editor.
 ## Java JDK Installation
-1. Use the `java -version` command from a shell prompt to see if java is installed. If you don't have version 1.6 or higher of the JDK installed on your system, use your package manager to install it or follow the directions at the [OpenJDK install page](http://openjdk.java.net/install/). 
+1. If you don't have the JDK installed on your system, use your package manager to install it or follow the directions at the [OpenJDK install page](http://openjdk.java.net/install/). 
 2. To verify the JDK installation, open the Command Prompt and type `java -version`:
 ```
 [tim@rajas ~]$ java -version
@@ -17,6 +12,24 @@ OpenJDK 64-Bit Server VM (build 25.102-b14, mixed mode)
 The package installation should have updated your `PATH` environment to add the `bin\` directory of the installed JDK, but if the above command didn't work you will need to update the `PATH` variable manually, as described [here](http://www.java.com/en/download/help/path.xml).
 
 If you have problems installing the JDK, ask for help.
+
+## Install sbt
+1. Follow the directions [here](http://www.scala-sbt.org/release/docs/Installing-sbt-on-Linux.html) or use your package manager.
+2. At a command prompt, type: `sbt about`
+```
+[tim@rajas curriculum]$ sbt about
+[info] Set current project to curriculum (in build file:/home/tim/dev/scala/curriculum/)
+[info] Updating {file:/home/tim/dev/scala/curriculum/}curriculum...
+[info] Resolving jline#jline;2.12.1 ...
+[info] Done updating.
+[info] This is sbt 0.13.11
+[info] The current project is {file:/home/tim/dev/scala/curriculum/}curriculum 0.1-SNAPSHOT
+[info] The current project is built against Scala 2.11.8
+[info] Available Plugins: sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.CorePlugin, sbt.plugins.JUnitXmlReportPlugin
+[info] sbt, sbt plugins, and build definitions are using Scala 2.10.6
+[tim@rajas curriculum]$ 
+```
+You should see: `[info] This is sbt 0.13.x` in the output.
 
 ## Install Scala
 1a. Use your package manager OR
@@ -30,8 +43,5 @@ Type in expressions for evaluation. Or try :help.
 scala> 
 ```
 The `scala>` prompt indicates you are in the Scala interpreter **R**ead-**E**valuate-**P**rint **L**oop or REPL. For now, just type `:quit` at the prompt to exit the REPL.
-
-## Text Editor
-A text editor will be required to create Scala program files during the workshop. If you don't have a preferred text editor, the [Atom](https://atom.io/) and [Sublime Text](https://www.sublimetext.com/3) editors are two recommended editors that are available for Linux. Look for a package to install for your distribution or refer to the links above for installation instructions.
 ## Next Steps
-This completes the installation required for the Scalabridge workshop.
+This completes the installation required for the Scalabridge workshop. You should now read and follow the *Using sbt and Scala Tutorial*.
