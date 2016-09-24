@@ -1,7 +1,49 @@
-
 # Windows Setup
+The workshop requires the following:
+1. Use of a `shell`, the `Command Prompt` will do,
+2. Java JDK (Java Development Kit) installed,
+3. Scala installed, and
+4. A text editor.
+
+## Windows Shell
+1. Press the `Windows` key and the `E` key together to open a Windows Explorer window with `Computer` selected.
+2. Right click on `Computer` and select `Properties` from the context menu. This opens the System Control Panel window. Find the `System type:` field and note whether your computer is running 64-bit or 32-bit Windows.
+3. Close the System Control Panel window.
+4. Return to the Windows Explorer window. It should show `Computer` in the Address Bar toward the top of the window:
+
+![](img/address_bar.PNG "address bar")
+
+5. Left click to the right of Computer in the address bar and type: `\Users\<your user name>` and hit `Enter`. The window now displays the contents of your `Home` directory
+6. Left click to the right of your user name in the address bar and type: `cmd` and hit `Enter`. This will open a Command Prompt window with your Home directory as the current working directory:
+
+![](img/command_prompt.PNG "command prompt in home directory")
+
+7. At the command prompt type: `mkdir ScalaBridge`
+8. At the command prompt type: `cd ScalaBridge`
+```
+C:\Users\Tim>mkdir ScalaBridge
+
+C:\Users\Tim>cd ScalaBridge
+
+C:\Users\Tim\ScalaBridge>
+```
+You have now created a working directory for your workshop files. Type `exit` at the command prompt to close the window. Now use Windows Explorer to select your newly created working directory, then start a command shell in that directory. You should now have a command prompt window open showing your ScalaBridge directory as the current directory:
+
+![](img/scala_bridge_directory.PNG "scala bridge directory")
+
+Now type: `java -version` at the prompt. If you have Java installed you should get a response like:
+```
+C:\Users\Tim\ScalaBridge>java -version
+java version "1.8.0_101"
+Java(TM) SE Runtime Environment (build 1.8.0_101-b13)
+Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
+
+C:\Users\Tim\ScalaBridge>
+```
+If your Java version is 1.6 or higher, then you can skip the Java JDK Installation section below.
+
 ## Java JDK Installation
-1. Download the JDK installer for Windows from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html):
+1. Download the JDK installer for Windows from [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/index.html). If your computer is running 32-bit Windows download the `x86` version, if it is running 64-bit Windows download the `x64` version.
 2. Run the installer
 3. Add the `bin\` directory of the installed JDK to the PATH environment variable, as described [here](http://www.java.com/en/download/help/path.xml)
 4. To verify the JDK installation, open the Command Prompt and type `java -version`:
@@ -12,30 +54,6 @@ Java(TM) SE Runtime Environment (build 1.8.0_91-b60)
 Java HotSpot(TM) 64-Bit Server VM (build 25.91-b60, mixed mode)
 ```
 If you have problems installing the JDK, ask for help.
-## Install sbt
-1. Follow the directions [here](http://www.scala-sbt.org/release/docs/Installing-sbt-on-Windows.html)
-2. At a command prompt, type: `sbt about`
-3. You should see: `[info] This is sbt 0.13.x` in the output:
-```
-C:\Users\Tim\dev\scala\curriculum>sbt about
-Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; suppor
-t was removed in 8.0
-[info] Loading global plugins from C:\Users\Tim\.sbt\0.13\plugins
-[info] Set current project to curriculum (in build file:/C:/Users/Tim/dev/scala/cur
-riculum/)
-[info] Updating {file:/C:/Users/Tim/dev/scala/curriculum/}curriculum...
-[info] Resolving org.scala-lang#scalap;2.11.8 ...
-[info] Done updating.
-[info] This is sbt 0.13.8
-[info] The current project is {file:/C:/Users/Tim/dev/scala/curriculum/}curriculum
-0.1-SNAPSHOT
-[info] The current project is built against Scala 2.11.8
-[info] Available Plugins: sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins
-.CorePlugin, sbt.plugins.JUnitXmlReportPlugin, org.ensime.EnsimePlugin
-[info] sbt, sbt plugins, and build definitions are using Scala 2.10.4
->
-```
-Type `exit` at the prompt to exit `sbt`.
 ## Install Scala
 1. Go to the [Scala Download page](http://www.scala-lang.org/download/) and choose the first option to download the Scala binaries installation package to your computer. The `download` button will automatically download the Windows installer for  Scala version 2.11.8.
 2. Use Windows Explorer to locate and run the installer. The Scala Programming Language Distribution Setup Wizard will appear.
@@ -52,6 +70,13 @@ Type in expressions for evaluation. Or try :help.
 scala>        
 ```
 The `scala>` prompt indicates you are in the Scala interpreter **R**ead-**E**valuate-**P**rint **L**oop or REPL. For now, just type `:quit` at the prompt to exit the REPL.
+## Install a Text Editor
+You will need a text editor to create Scala program files during the workshop. If you already have a preferred text editor, you can skip this section.
+
+While there are many text editors and Integrated Development Environments (IDE) to choose from, for the purpose of this workshop, either the [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/3) editors are recommended. 
+
+Follow the links above to read more about the editors. Select one of them and follow the installation instructions provided.
+
 ## Next Steps
-This completes the installation required for the Scalabridge workshop. You should now read and follow the *Using sbt and Scala Tutorial*.
+This completes the installation required for the Scalabridge workshop.
                                                              
