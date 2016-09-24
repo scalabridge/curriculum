@@ -11,7 +11,7 @@ The workshop requires the following:
 3. Close the System Control Panel window.
 4. Return to the Windows Explorer window. It should show `Computer` in the Address Bar toward the top of the window:
 
-![](img/address_bar.PNG?raw=true "address bar")
+![](img/address_bar.PNG "address bar")
 
 5. Left click to the right of Computer in the address bar and type: `\Users\<your user name>` and hit `Enter`. The window now displays the contents of your `Home` directory
 6. Left click to the right of your user name in the address bar and type: `cmd` and hit `Enter`. This will open a Command Prompt window with your Home directory as the current working directory:
