@@ -11,12 +11,12 @@ The workshop requires the following:
 3. Close the System Control Panel window.
 4. Return to the Windows Explorer window. It should show `Computer` in the Address Bar toward the top of the window:
 
-![](img/address_bar.png?raw=true "address bar")
+![](img/address_bar.PNG?raw=true "address bar")
 
 5. Left click to the right of Computer in the address bar and type: `\Users\<your user name>` and hit `Enter`. The window now displays the contents of your `Home` directory
 6. Left click to the right of your user name in the address bar and type: `cmd` and hit `Enter`. This will open a Command Prompt window with your Home directory as the current working directory:
 
-![](img/command_prompt.png?raw=true "command prompt in home directory")
+![](img/command_prompt.PNG?raw=true "command prompt in home directory")
 
 7. At the command prompt type: `mkdir ScalaBridge`
 8. At the command prompt type: `cd ScalaBridge`
@@ -29,7 +29,7 @@ C:\Users\Tim\ScalaBridge>
 ```
 You have now created a working directory for your workshop files. Type `exit` at the command prompt to close the window. Now use Windows Explorer to select your newly created working directory, then start a command shell in that directory. You should now have a command prompt window open showing your ScalaBridge directory as the current directory:
 
-![](img/scala_bridge_directory.png?raw=true "scala bridge directory")
+![](img/scala_bridge_directory.PNG?raw=true "scala bridge directory")
 
 Now type: `java -version` at the prompt. If you have Java installed you should get a response like:
 ```
