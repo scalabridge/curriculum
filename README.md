@@ -4,6 +4,9 @@ Materials and resources for workshop curriculum in development
 To contribute, see:
 * https://github.com/scalabridge/curriculum/issues
 
+Find us on Gitter:
+* https://gitter.im/scalabridge/curriculum
+
 Reference: https://clojurebridge.github.io/curriculum/#/
 
 
