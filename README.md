@@ -2,7 +2,7 @@
 Materials and resources for workshop curriculum in development 
 
 To contribute, see:
-* https://github.com/scalabridge/curriculum/issues
+* [CONTRIBUTING](CONTRIBUTING.md)
 
 Find us on Gitter:
 * https://gitter.im/scalabridge/curriculum
