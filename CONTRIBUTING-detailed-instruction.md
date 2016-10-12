@@ -18,8 +18,8 @@
 	Press `Enter` and git will create your local clone
     ```
 
-5. Add the scalabridge repository as a remote to facilitate synchronizing with it before making changes:
-	1. On GitHub, navigate to the scalabridge/curriculum repository.
+5. Link the Github (remote) version of the repository with your local version so it will synchronize before you make changes:
+	1. On GitHub, navigate to the [scalabridge/curriculum](https://github.com/scalabridge/curriculum) repository.
 	2. Under the repository name, to the right, click **Clone or download**.
 	3. In the **Clone with HTTPs** section, click the "Copy to clipboard" icon to copy the clone URL for the repository.
 	4. On Linux or Mac, open a `terminal`, on Windows open `Git Bash`. From the prompt, if needed, change the working directory to the location of your local repository.
@@ -71,7 +71,7 @@ upstream        https://github.com/scalabridge/curriculum.git (push)
 	$ git commit -a            # adds all changes and commits
 	$ git commit -m "<commit message line here>"
 	```
-5. **Push your changes** to your forked repository. The first time you push your branch use the `git push -u` command as shown below. Subsequent pushes after further edits can just use `git push origin` (assumes you are working in branch on local repository).
+5. **Push your changes** to your forked repository. The first time you push your branch use the `git push -u` command as shown below. Subsequent pushes after further edits can use `git push origin` (assumes you are working in branch on local repository).
 	
 	```bash
 	# initial push of topic branch
