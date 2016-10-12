@@ -6,8 +6,8 @@ By participating in this project you agree to abide by the [Bridge Foundry](http
 
 You can contribute to ScalaBridge by either:
 
-1. **[Creating an `issue`](#creating-an-issue)** to suggest an enhancement, identify a 'bug', or make another request, or
-2. **[Creating a `pull request`](#pull-request-process)** to resolve an issue by revising existing content or creating new content.  
+1. **Creating an `issue`** to suggest an enhancement, identify a 'bug', or make another request, or
+2. **Creating a `pull request`** to resolve an issue by revising existing content or creating new content.  
 
 * To create `issues` or make `pull requests` you need a [GitHub account](#setup).
 
