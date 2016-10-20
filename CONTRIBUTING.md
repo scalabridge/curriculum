@@ -9,10 +9,10 @@ You can contribute to ScalaBridge by either:
 1. **Creating an `issue`** to suggest an enhancement, identify a 'bug', or make another request, or
 2. **Creating a `pull request`** to resolve an issue by revising existing content or creating new content.  
 
-* To create `issues` or make `pull requests` you need a [GitHub account](#setup).
+To create `issues` or make `pull requests` you need a [GitHub account](CONTRIBUTING-detailed-instruction.md#setup).
 
 ## Creating an Issue
-Creating an issue requires no technical expertise, go [to the scalabridge repository, create a new issue](https://github.com/scalabridge/curriculum/issues/new), type a title and description for your issue and click `Submit new issue` when you are finished. A [Github help](https://help.github.com/articles/creating-an-issue/) page is also available.
+Creating an issue requires no technical expertise. Go [to the scalabridge repository, create a new issue](https://github.com/scalabridge/curriculum/issues/new), type a title and description for your issue and click `Submit new issue` when you are finished. A [Github help](https://help.github.com/articles/creating-an-issue/) page is also available.
 
 ## Pull Request Process
 - Fork and sync local repository
