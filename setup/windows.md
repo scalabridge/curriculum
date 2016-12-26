@@ -20,6 +20,7 @@ The workshop requires the following:
 
 7. At the command prompt type: `mkdir ScalaBridge`
 8. At the command prompt type: `cd ScalaBridge`
+
 ```
 C:\Users\Tim>mkdir ScalaBridge
 
@@ -27,11 +28,13 @@ C:\Users\Tim>cd ScalaBridge
 
 C:\Users\Tim\ScalaBridge>
 ```
+
 You have now created a working directory for your workshop files. Type `exit` at the command prompt to close the window. Now use Windows Explorer to select your newly created working directory, then start a command shell in that directory. You should now have a command prompt window open showing your ScalaBridge directory as the current directory:
 
 ![](img/scala_bridge_directory.PNG "scala bridge directory")
 
 Now type: `java -version` at the prompt. If you have Java installed you should get a response like:
+
 ```
 C:\Users\Tim\ScalaBridge>java -version
 java version "1.8.0_101"
@@ -40,6 +43,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
 C:\Users\Tim\ScalaBridge>
 ```
+
 If your Java version is 1.6 or higher, then you can skip the Java JDK Installation section below.
 
 ## Java JDK Installation
@@ -47,13 +51,16 @@ If your Java version is 1.6 or higher, then you can skip the Java JDK Installati
 2. Run the installer
 3. Add the `bin\` directory of the installed JDK to the PATH environment variable, as described [here](http://www.java.com/en/download/help/path.xml)
 4. To verify the JDK installation, open the Command Prompt and type `java -version`:
+
 ```
 C:\Users\Tim\dev\scala\curriculum>java -version
 java version "1.8.0_91"
 Java(TM) SE Runtime Environment (build 1.8.0_91-b60)
 Java HotSpot(TM) 64-Bit Server VM (build 25.91-b60, mixed mode)
 ```
+
 If you have problems installing the JDK, ask for help.
+
 ## Install Scala
 1. Go to the [Scala Download page](http://www.scala-lang.org/download/) and choose the first option to download the Scala binaries installation package to your computer. The `download` button will automatically download the Windows installer for  Scala version 2.11.8.
 2. Use Windows Explorer to locate and run the installer. The Scala Programming Language Distribution Setup Wizard will appear.
@@ -62,6 +69,7 @@ If you have problems installing the JDK, ask for help.
 The installer will install the core Scala language, update the System path for the Scala executables, and privide a start menu link to Scala documentation.
 
 Verify installation by opening a command prompt window and entering `scala` at the prompt:
+
 ```
 C:\Users\Tim>scala                                                         
 Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_74).
@@ -69,14 +77,6 @@ Type in expressions for evaluation. Or try :help.
                                                                            
 scala>        
 ```
+
 The `scala>` prompt indicates you are in the Scala interpreter **R**ead-**E**valuate-**P**rint **L**oop or REPL. For now, just type `:quit` at the prompt to exit the REPL.
-## Install a Text Editor
-You will need a text editor to create Scala program files during the workshop. If you already have a preferred text editor, you can skip this section.
-
-While there are many text editors and Integrated Development Environments (IDE) to choose from, for the purpose of this workshop, either the [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/3) editors are recommended. 
-
-Follow the links above to read more about the editors. Select one of them and follow the installation instructions provided.
-
-## Next Steps
-This completes the installation required for the Scalabridge workshop.
                                                              
