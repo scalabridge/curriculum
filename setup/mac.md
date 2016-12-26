@@ -165,57 +165,6 @@ Type
 ```
 at the `scala>` prompt to exit the REPL and return to the terminal prompt.
 
-###Install SBT
-Use Homebrew to install the [Scala Build Tool](http://www.scala-sbt.org/index.html) (SBT). In your terminal window, type
-```
-brew install sbt
-```
-
-You will see output like this in your terminal:
-
-```
-yourmac:~ user$ brew install sbt
-==> Downloading https://dl.bintray.com/sbt/native-packages/sbt/0.13.12/sbt-0.13.12.tgz
-######################################################################## 100.0%
-==> Caveats
-You can use $SBT_OPTS to pass additional JVM options to SBT:
-   SBT_OPTS="-XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=256M"
-
-This formula is now using the standard typesafe sbt launcher script.
-Project specific options should be placed in .sbtopts in the root of your project.
-Global settings should be placed in /usr/local/etc/sbtopts
-==> Summary
-🍺  /usr/local/Cellar/sbt/0.13.12: 5 files, 1.2M, built in 1 second
-```
-
-In your terminal window, start SBT by typing
-```
-sbt
-```
-
-The first time SBT starts up it will download additional packages for setup. This process may take a few minutes. You will see output in your termainal like:
-
-```
-Getting org.scala-sbt sbt 0.13.12 ...
-downloading http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/sbt/0.13.12/jars/sbt.jar ...
-	[SUCCESSFUL ] org.scala-sbt#sbt;0.13.12!sbt.jar (1235ms)
-downloading http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/main/0.13.12/jars/main.jar ...
-	[SUCCESSFUL ] org.scala-sbt#main;0.13.12!main.jar (2387ms)
-downloading http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.12/jars/compiler-interface.jar ...
-	[SUCCESSFUL ] org.scala-sbt#compiler-interface;0.13.12!compiler-interface.jar (1230ms)
-	...
-[info] Done updating.
-[info] Set current project to user (in build file:/Users/user/)
-> 
-```
-
-At the SBT prompt, type
-```
-exit
-```
-to exit SBT and return to the terminal prompt.
-
-
 ###Configure Your User
 Finally, configure your user account so that you can use Scala from any terminal session on your computer.
 
