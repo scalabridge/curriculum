@@ -1,12 +1,11 @@
 # Summary
 
 ## Getting Started
-* Why Scala
-
-## Setup
-* Mac OS
-* Linux
-* Windows
+* [Why Scala](introduction/whyscala.md)
+* [Setup](setup/setup.md)
+  * [Mac OS](setup/mac.md)
+  * [Linux](setup/linux.md)
+  * [Windows](setup/windows.md)
 
 ## Hello World
 * Scala Basics
