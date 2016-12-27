@@ -12,15 +12,13 @@ gitbook serve
 
 ## Contributing
 
-To contribute, see:
-* [CONTRIBUTING](CONTRIBUTING.md)
+To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md)
 
-Find us on Gitter:
-* https://gitter.im/scalabridge/curriculum
+You can [find us on Gitter](https://gitter.im/scalabridge/curriculum) with any questions!
 
 ## Acknowledgements
 
-This curriculum would not have been possible without our friends at [BridgeFoundry](http://bridgefoundry.org/).
+This curriculum would not have been possible without our friends at [BridgeFoundry](http://bridgefoundry.org/). We're especially grateful for the [contributors to the project](https://github.com/scalabridge/curriculum/graphs/contributors).
 
 Curriculum has been inspired by and borrowed from:
 * [RailsBridge](https://github.com/railsbridge/docs)
