@@ -11,7 +11,6 @@
 * Scala Basics
 
 ## Let's Build Something
-* Exercise - Lemonade Stand Game
 * Project - Build a Bot
 
 ## More Resources
