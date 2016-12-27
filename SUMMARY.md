@@ -7,10 +7,13 @@
   * [Linux](setup/linux.md)
   * [Windows](setup/windows.md)
 
-## Hello World
-* Scala Basics
+## Hello World!
+* [Scala Basics](intro-scala.md)
+* [Exercise - Doodle](doodle.md)
 
 ## Let's Build Something
-* Project - Build a Bot
+* [Project - Build a Bot](bot-project.md)
 
-## More Resources
+## Wrapping Up
+* [Next Steps](nextsteps.md)
+* [More Resources](resources.md)
