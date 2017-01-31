@@ -13,7 +13,7 @@ The workshop requires the following:
 
 ![](img/address_bar.PNG "address bar")
 
-5. Left click to the right of Computer in the address bar and type: `\Users\<your user name>` and hit `Enter`. The window now displays the contents of your `Home` directory
+5. Left click to the left of Computer in the address bar and type: `\Users\<your user name>` and hit `Enter`. The window now displays the contents of your `Home` directory
 6. Left click to the right of your user name in the address bar and type: `cmd` and hit `Enter`. This will open a Command Prompt window with your Home directory as the current working directory:
 
 ![](img/command_prompt.PNG "command prompt in home directory")
