@@ -4,7 +4,7 @@ Did you make it through all of [Creative Scala?](http://scalabridge.org/creative
 
 Here are some ideas to expand on what you just learned:
 
-* Build a hangman style game (hint: you can play by [accepting user input](http://www.scala-lang.org/api/2.12.0/scala/io/StdIn$.html).
+* Build a hangman style game (hint: you can play by [accepting user input](http://www.scala-lang.org/api/2.12.0/scala/io/StdIn$.html)).
 * Build a checkers game
 
 Other ideas:
