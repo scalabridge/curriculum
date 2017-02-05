@@ -9,9 +9,7 @@
 
 ## Hello World!
 * [Creative Scala](creative-scala.md)
-
-## Let's Build Something!
-* [Advanced Doodle](advanced-doodle.md)
+* [Your next challenge](build-more.md)
 
 ## Wrapping Up
 * [More Resources](resources.md)
