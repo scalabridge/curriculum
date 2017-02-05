@@ -4,22 +4,23 @@ We're so excited to help you explore the Scala language. If you have any questio
 
 ## Agenda
 
-**9:00am** - Introductions
+**9:30am** - Opening talk, student sorting
 
-**9:15am** - Scala Basics
+**10:00am** - Code
 
-**10:30** - Short Break
+**11:00am** - Break
 
-**10:45am** - Exercise - Lemonade Stand
+**11:15am** - Code
 
-**12:00pm** - Lunch
+**12:30pm** - Lunch
 
-**1:00pm** - Project - Build a Bot
+**1:30pm** - Code
 
-**2:30pm** - Short Break
+**3:00pm** - Break
 
-**2:45pm** - More project time
+**3:30pm** - Code
 
-**4:15pm** - Wrap up
+**4:30pm** - Closing talk & retrospectives
 
-**4:30pm** - Activity!
+**5 - 7pm** - Afterparty (optional)
+
