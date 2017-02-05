@@ -11,7 +11,7 @@
 * [Creative Scala](creative-scala.md)
 
 ## Let's Build Something!
-* [Advanced Doodle](doodle-project-ideas.md)
+* [Advanced Doodle](advanced-doodle.md)
 
 ## Wrapping Up
 * [More Resources](resources.md)

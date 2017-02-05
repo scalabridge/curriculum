@@ -80,3 +80,21 @@ scala>
 
 The `scala>` prompt indicates you are in the Scala interpreter **R**ead-**E**valuate-**P**rint **L**oop or REPL. For now, just type `:quit` at the prompt to exit the REPL.
                                                              
+
+## Install Doodle
+
+[Download the ZIP file here](https://github.com/scalabridge/curriculum/raw/master/doodle.zip). Unzip the project and from the command line make sure you can do the following (this will take a little while the first time you do it).
+
+```
+$ ./sbt.sh
+Getting org.scala-sbt sbt 0.13.7 ...
+.
+.
+.
+doodle-develop> console
+.
+.
+.
+scala> Circle(10)
+res0: doodle.core.Circle = Circle(10.0)
+```
