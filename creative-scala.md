@@ -1,5 +1,5 @@
 # Creative Scala
 
-To learn Scala, let's use some open source curriculum developed by our friends at [Underscore](underscore.io).
+To learn Scala, let's use an open source resource provided by our friends at [Underscore](https://underscore.io).
 
-Head on over to [this page](http://scalabridge.org/creative-scala.html) to access the material!
+Head over to [Creative Scala](http://scalabridge.org/creative-scala.html) to access the material.
