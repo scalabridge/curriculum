@@ -1,6 +1,5 @@
 {
   "structure": {
     "readme": "intro.md"
-  },
-  "plugins": ["todo"]
+  }
 }
