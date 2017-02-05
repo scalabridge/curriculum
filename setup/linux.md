@@ -54,5 +54,6 @@ scala> res0.draw
 ```
 
 After the last command, verify that you see a window open that looks like this:
+
 ![Circle](https://github.com/scalabridge/curriculum/blob/master/setup/img/circle.png?raw=true)
 
