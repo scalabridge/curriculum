@@ -20,7 +20,7 @@ Whether you're new to Scala or new to programming, the ScalaBridge curriculum wi
 
 **Rewarding.** Although Scala is easy to get into, it is also deep and offers opportunities for continuous intellectual exploration, growth, and learning. 
 
-**Empowering.** A lot of opportunity exists today to get a job as a Scala programmer, and the market for Scala programmers is growing strongly. A 2016 IT skills report calculated that learning Scala could earn you a 22.2% pay bump! 
+**Empowering.** A lot of opportunity exists today to get a job as a Scala programmer, and the market for Scala programmers is growing strongly. A [2016 IT skills report](http://www.infoworld.com/article/3071623/salary/want-to-boost-your-salary-learn-scala-golang-or-python.html) calculated that learning Scala could earn you a 22.2% pay bump! 
 
 ## Functional programming is...
 
