@@ -194,14 +194,19 @@ Congratulations! You have successfully installed Scala.
 
 ```
 $ ./sbt.sh
-Getting org.scala-sbt sbt 0.13.7 ...
+Getting org.scala-sbt sbt 0.13.13 ...
 .
 .
 .
-doodle-develop> console
+doodle> console
 .
 .
 .
 scala> Circle(10)
 res0: doodle.core.Circle = Circle(10.0)
+
+scala> res0.draw
 ```
+
+After the last command, verify that you see a window open that looks like this:
+![Circle](https://github.com/scalabridge/curriculum/blob/master/setup/img/circle.PNG?raw=true)

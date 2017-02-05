@@ -86,15 +86,20 @@ The `scala>` prompt indicates you are in the Scala interpreter **R**ead-**E**val
 [Download the ZIP file here](https://github.com/scalabridge/curriculum/raw/master/doodle.zip). Unzip the project and from the command line make sure you can do the following (this will take a little while the first time you do it).
 
 ```
-$ ./sbt.sh
-Getting org.scala-sbt sbt 0.13.7 ...
+$ ./sbt.bat
+Getting org.scala-sbt sbt 0.13.13 ...
 .
 .
 .
-doodle-develop> console
+doodle> console
 .
 .
 .
 scala> Circle(10)
 res0: doodle.core.Circle = Circle(10.0)
+
+scala> res0.draw
 ```
+
+After the last command, verify that you see a window open that looks like this:
+![Circle](https://github.com/scalabridge/curriculum/blob/master/setup/img/circle.PNG?raw=true)
