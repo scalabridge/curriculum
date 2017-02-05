@@ -1,19 +1,17 @@
 # Summary
 
 ## Getting Started
-* [Why Scala](introduction/whyscala.md)
 * [Setup](setup/setup.md)
   * [Mac OS](setup/mac.md)
   * [Linux](setup/linux.md)
   * [Windows](setup/windows.md)
+* [Why Scala](introduction/whyscala.md)
 
 ## Hello World!
-* [Scala Basics](intro-scala.md)
-* [Exercise - Doodle](doodle.md)
+* [Creative Scala](creative-scala.md)
 
-## Let's Build Something
-* [Project - Build a Bot](bot-project.md)
+## Let's Build Something!
+* [Advanced Doodle](doodle-project-ideas.md)
 
 ## Wrapping Up
-* [Next Steps](nextsteps.md)
 * [More Resources](resources.md)
