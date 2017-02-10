@@ -83,16 +83,19 @@ The `scala>` prompt indicates you are in the Scala interpreter **R**ead-**E**val
 
 ## Install Doodle
 
-[Download the ZIP file here](https://github.com/scalabridge/curriculum/raw/master/doodle.zip). Unzip the project and from the command line make sure you can do the following (this will take a little while the first time you do it).
+[Download the ZIP file here](https://github.com/scalabridge/doodle/archive/master.zip). Unzip the project and from the command line make sure you can do the following (this will take a little while the first time you do it).
 
 ```
 $ ./sbt.bat
-Getting org.scala-sbt sbt 0.13.13 ...
 .
 .
+. (you'll see some [info] logs here)
 .
-doodle> console
 .
+> console
+.
+.
+. (you'll see some [info] logs here)
 .
 .
 scala> Circle(10)

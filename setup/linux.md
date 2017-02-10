@@ -35,18 +35,25 @@ The `scala>` prompt indicates you are in the Scala interpreter **R**ead-**E**val
 
 ## Install Doodle
 
-[Download the ZIP file here](https://github.com/scalabridge/curriculum/raw/master/doodle.zip). Unzip the project and from the command line make sure you can do the following (this will take a little while the first time you do it).
+[Download the ZIP file here](https://github.com/scalabridge/doodle/archive/master.zip). Unzip the project, and from the command line (navigate inside the directory) make sure you can do the following (this will take a little while the first time you do it).
 
 ```
 $ ./sbt.sh
 Getting org.scala-sbt sbt 0.13.13 ...
 .
 .
-.
-doodle> console
-.
+. (you'll see some [info] logs here)
 .
 .
+> console
+.
+.
+. (you'll see some [info] logs here)
+.
+.
+Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.7.0_75).
+Type in expressions for evaluation. Or try :help.
+
 scala> Circle(10)
 res0: doodle.core.Circle = Circle(10.0)
 
