@@ -129,7 +129,11 @@ cd scala-2.11.8
 ```
 and then
 ```
-scala
+cd bin
+```
+and then
+```
+./scala
 ```
 
 You will see the Scala REPL prompt in your terminal:
