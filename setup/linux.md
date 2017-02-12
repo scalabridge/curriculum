@@ -58,7 +58,7 @@ After the last command, verify that you see a window open that looks like this:
 
 ```
 $ scala
-Welcome to Scala 2.11.8 (OpenJDK 64-Bit Server VM, Java 1.8.0_102).
+Welcome to Scala 2.12.1 (OpenJDK 64-Bit Server VM, Java 1.8.0_102).
 Type in expressions for evaluation. Or try :help.
 
 scala> 
