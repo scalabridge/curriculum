@@ -17,12 +17,12 @@ If you're having trouble launching the command prompt or are on a different vers
 Now type: `java -version` at the prompt. If you have Java installed you should get a response like:
 
 ```
-C:\Users\Tim>java -d64 -version
+C:\Users\Taylor>java -d64 -version
 java version "1.8.0_101"
 Java(TM) SE Runtime Environment (build 1.8.0_101-b13)
 Java HotSpot(TM) 64-Bit Server VM (build 25.101-b13, mixed mode)
 
-C:\Users\Tim>
+C:\Users\Taylor>
 ```
 
 If your Java version is 1.8 or higher, then you can skip the Java JDK Installation section below. If you get an error or different looking output than above, you should continue with the Java JDK Installation.
@@ -37,12 +37,12 @@ If you have problems installing the JDK, ask for help.
 
 ## Install Doodle
 
-[Download the ZIP file here](https://github.com/scalabridge/doodle/archive/master.zip) and unzip it into a folder that you can find later. Then, navigate to the directory you unzipped from the Windows Command Prompt, using the `cd` command. Ask for help if you get stuck.
+[Download the ZIP file here](https://github.com/underscoreio/creative-scala-template/archive/master.zip) and unzip it into a folder that you can find later. Then, navigate to the directory you unzipped from the Windows Command Prompt, using the `cd` command. Ask for help if you get stuck.
 
  Now, type `sbt.bat`. Make sure see output that looks like the following (this will take a little while the first time you do it).
 
 ```
-C:\Users\Tim> sbt.bat
+C:\Users\Taylor> sbt.bat
 .
 .
 . (you'll see some [info] logs here)
@@ -67,15 +67,12 @@ scala>
 The `scala>` prompt means that you are ready to test your install. Try the following at the prompt:
 
 ```
-scala> Circle(10)
-res0: doodle.core.Circle = Circle(10.0)
-
-scala> res0.draw
+scala> Example.image.draw
 ```
 
 After the last command, verify that you see a window open that looks like this:
 
-![Circle](https://github.com/scalabridge/curriculum/blob/master/setup/img/circle.png?raw=true)
+![Circle](https://github.com/scalabridge/curriculum/blob/master/setup/img/example-circles.png?raw=true)
 
 ## Part 2: optional Scala and SBT install for further learning
 
@@ -89,7 +86,7 @@ The installer will install the core Scala language, update the System path for t
 Verify installation by opening a command prompt window and entering `scala` at the prompt:
 
 ```
-C:\Users\Tim>scala                                                         
+C:\Users\Taylor>scala                                                         
 Welcome to Scala 2.12.1 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_74).
 Type in expressions for evaluation. Or try :help.                          
                                                                            
@@ -104,7 +101,7 @@ Install sbt using the Windows msi installer (or by downloading the zip file) fro
 
 Once you have installed it you can run `sbt` at the command prompt. You will see something like this:
 ```
-C:\Users\Tim>sbt
+C:\Users\Taylor>sbt
 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
 [info] Set current project to julie (in build file:/C:/Users/julie/)
 >
