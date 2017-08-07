@@ -35,7 +35,7 @@ You need Java version 1.8 or higher in order to run Scala 2.12. If the version o
 
 ### Install Doodle
 
-[Download the ZIP file here](https://github.com/scalabridge/doodle/archive/master.zip). Unzip the project and navigate inside the unzipped directory from the terminal. Make sure you can do the following (this will take a little while the first time you do it).
+[Download the ZIP file here](https://github.com/underscoreio/creative-scala-template/archive/master.zip). Unzip the project and navigate inside the unzipped directory (called `creative-scala-template`) from the terminal. Make sure you can do the following (this will take a little while the first time you do it).
 
 ```
 $ ./sbt.sh
@@ -50,15 +50,12 @@ $ ./sbt.sh
 . (you'll see some [info] logs here)
 .
 .
-scala> Circle(10)
-res0: doodle.core.Circle = Circle(10.0)
-
-scala> res0.draw
+scala> Example.image.draw
 ```
 
-After the last command, verify that you see a window open that looks like this:
+An image of three circles should appear!
 
-![Circle](https://github.com/scalabridge/curriculum/blob/master/setup/img/circle.png?raw=true)
+![Circles](https://github.com/scalabridge/curriculum/blob/master/setup/img/example-circles.png?raw=true)
 
 ## Part 2: optional Scala and SBT install for further learning
 
