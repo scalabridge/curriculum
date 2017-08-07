@@ -25,7 +25,7 @@ If you have problems installing the JDK, ask for help.
 
 ```
 $ ./sbt.sh
-Getting org.scala-sbt sbt 0.13.13 ...
+Getting org.scala-sbt sbt 0.13.11 ...
 .
 .
 . (you'll see some [info] logs here)
@@ -37,18 +37,13 @@ Getting org.scala-sbt sbt 0.13.13 ...
 . (you'll see some [info] logs here)
 .
 .
-Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.7.0_75).
-Type in expressions for evaluation. Or try :help.
 
-scala> Circle(10)
-res0: doodle.core.Circle = Circle(10.0)
-
-scala> res0.draw
+scala> Example.image.draw
 ```
 
-After the last command, verify that you see a window open that looks like this:
+An image of three circles should appear!
 
-![Circle](https://github.com/scalabridge/curriculum/blob/master/setup/img/circle.png?raw=true)
+![Circle](https://github.com/scalabridge/curriculum/blob/master/setup/img/example-circles.png?raw=true)
 
 ## Part 2: optional Scala and SBT install for further learning
 
