@@ -21,7 +21,7 @@ If you have problems installing the JDK, ask for help.
 
 ### Install Doodle
 
-[Download the ZIP file here](https://github.com/scalabridge/doodle/archive/master.zip). Unzip the project, and from the command line (navigate inside the directory) make sure you can do the following (this will take a little while the first time you do it).
+[Download the ZIP file here](https://github.com/underscoreio/creative-scala-template/archive/master.zip). Unzip the project, and from the command line (navigate inside the directory) make sure you can do the following (this will take a little while the first time you do it).
 
 ```
 $ ./sbt.sh
