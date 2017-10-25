@@ -1,4 +1,4 @@
-#Mac OSX Installation Guide
+# Mac OSX Installation Guide
 
 This document will guide you through setup on Mac OSX so you'll be ready to do the course exercises, and optionally, continue exploring Scala after you're done.
 
@@ -7,7 +7,7 @@ This document will guide you through setup on Mac OSX so you'll be ready to do t
 ### Check your Java installation
 Open Spotlight by clicking the magnifying glass icon on the upper right corner of your screen
 
-Type `terminal` in the search box 
+Type `terminal` in the search box
 
 Click the Terminal application entry to launch your terminal session:
 ![Terminal in Spotlight](http://skarlson.com/scalabridge/images/launching_terminal.png)
@@ -17,12 +17,12 @@ You will see a window that looks like this:
 
 You'll use this terminal window to complete the rest of this installation guide.
 
-###Install Java
+### Install Java
 Recent versions of Mac OS come with Java already installed.  Confirm that your computer has Java installed by typing:
 ```
 java -version
 ```
-at the command prompt in your terminal window. You should see a response similar to: 
+at the command prompt in your terminal window. You should see a response similar to:
 ```
 $ java -version
 java version "1.8.0_20"
@@ -61,7 +61,7 @@ An image of three circles should appear!
 
 If you wish to go beyond using doodle and create projects of your own, or just play around in the REPL, you will want to have Scala and SBT installed. This section walks you through how to do this.
 
-###Install Homebrew
+### Install Homebrew
 [Homebrew](http://brew.sh/) is a software package manager for Mac OS. To install Homebrew, paste the following line at your terminal prompt:
 
 ```
@@ -94,7 +94,7 @@ Read the analytics documentation (and how to opt-out) here:
   https://git.io/brew-analytics
 ```
 
-Verify that Homebrew is installed by typing 
+Verify that Homebrew is installed by typing
 ```
 brew help
 ```
@@ -112,7 +112,7 @@ Example usage:
 ...
 ```
 
-###Install Scala
+### Install Scala
 
 Now that you have brew installed, you can get the latest version of scala very easily:
 
@@ -121,7 +121,7 @@ brew install scala
 ```
 
 Now you should be able access the Scala REPL:
- 
+
 ```
 $ scala
 cat: /release: No such file or directory
@@ -132,7 +132,7 @@ scala>
 ```
 (_note: ignore the warning `cat: /release: No such file or directory`_)
 
-Type 
+Type
 ```
 :help
 ```
@@ -148,7 +148,7 @@ All commands can be abbreviated, e.g., :he instead of :help.
 ...
 ```
 
-Type 
+Type
 ```
 :quit
 ```
@@ -156,7 +156,7 @@ at the `scala>` prompt to exit the REPL and return to the terminal prompt.
 
 Congratulations! You have successfully installed Scala.
 
-###Install SBT
+### Install SBT
 
 To install sbt, use brew once again:
 
@@ -171,6 +171,3 @@ $ sbt
 [info] Set current project to directory (in build file:/path/to/current/directory/)
 >
 ```
-
-
-
