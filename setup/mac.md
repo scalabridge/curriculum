@@ -10,10 +10,12 @@ Open Spotlight by clicking the magnifying glass icon on the upper right corner o
 Type `terminal` in the search box
 
 Click the Terminal application entry to launch your terminal session:
-![Terminal in Spotlight](http://skarlson.com/scalabridge/images/launching_terminal.png)
+
+![Terminal in Spotlight](https://storage.jumpshare.com/preview/L_utL7vxik0o9LawxqGi_Br9P64kGf3DYRK35Drx8QSXMyuUkCDf7o_Eb6fzcqp7DqYbz6BVBqJ6FmDn5M3jaFNlSmh0egFbdyHzE6LvoMAI4av1wcwKsmUDuTGzHRrg)
 
 You will see a window that looks like this:
-![Terminal Window](http://skarlson.com/scalabridge/images/terminal_window.png)
+
+![Terminal Window](https://storage.jumpshare.com/preview/Bh7Rn7-FzN1l4U2CLy5EWoBEBzYjp4lSbM3ctLb1xXvqKFgloKqsWmbF30AcPNWIEzx4y4m1IY5q3qz8KzOhZFNlSmh0egFbdyHzE6LvoMAI4av1wcwKsmUDuTGzHRrg)
 
 You'll use this terminal window to complete the rest of this installation guide.
 
