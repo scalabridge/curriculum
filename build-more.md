@@ -1,6 +1,6 @@
 # Let's Build Something!
 
-Did you make it through all of [Creative Scala?](http://scalabridge.org/creative-scala.html) Great job! Your path to Scala knowledge is only getting started.   
+Did you make it through all of [Creative Scala?](http://www.creativescala.org/) Great job! Your path to Scala knowledge is only getting started.   
 
 Here are some ideas of other things you can build to expand on what you just learned:
 
