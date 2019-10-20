@@ -52,7 +52,7 @@ $ ./sbt.sh
 . (you'll see some [info] logs here)
 .
 .
-scala> Example.image.draw
+scala> Example.image.draw()
 ```
 
 An image of three circles should appear!
